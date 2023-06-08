@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/UI%20CONFUR'))()
 	local Windows = Rayfield:CreateWindow({
 		Name = "Please Wait For Preparing Doors Tools...",
 		LoadingTitle = "DOORS TOOLS",
@@ -48,7 +48,7 @@ game.Players.LocalPlayer:Kick("The Hub Version Is Not Support For Mobile OS Beca
 end
 local Paragraph = Tabbet:CreateParagraph({Title = "Almost There", Content = "Ready..."})
 wait(0.8)
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/UI%20CONFUR'))()
 local Window = Rayfield:CreateWindow({
 	Name = "DOORS TOOLS V1 By ZinXC#1950",
 	LoadingTitle = "DOORS TOOLS V1",
