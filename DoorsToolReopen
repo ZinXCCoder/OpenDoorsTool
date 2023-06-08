@@ -1,3 +1,4 @@
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/UI%20CONFUR'))()
 local Window = Rayfield:CreateWindow({
 	Name = "DOORS TOOLS V1 By ZinXC#1950",
@@ -2948,3 +2949,24 @@ local Section = UISettings:CreateSection("▬▬▬▬▬▬▬▬▬▬▬▬�
 local Section = UISettings:CreateSection("Version: V1.0")
 local Section = UISettings:CreateSection("BETA VERION: V1.0")
 local Section = UISettings:CreateSection("Credit: ZinXC Official")
+local uis = game:GetService("UserInputService")
+uis.InputBegan:Connect(function(began)
+if began.KeyCode == Enum.KeyCode.U then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/DoorsToolReopen"))()
+end
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
