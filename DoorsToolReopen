@@ -2902,7 +2902,7 @@ local Button = UISettings:CreateButton({
 	Callback = function()
 Rayfield:Destroy()
 wait(0.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/DoorsToolReopen"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinXCCoder/OpenDoorsTool/main/ResetTool"))()
 
 end,
 })
